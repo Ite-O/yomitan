@@ -900,6 +900,7 @@
                                     "enableMecabParser",
                                     "selectedParser",
                                     "termSpacing",
+                                    "useTermReading",
                                     "readingMode"
                                 ],
                                 "properties": {
@@ -916,6 +917,10 @@
                                         "default": null
                                     },
                                     "termSpacing": {
+                                        "type": "boolean",
+                                        "default": true
+                                    },
+                                    "useTermReading": {
                                         "type": "boolean",
                                         "default": true
                                     },
